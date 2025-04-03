@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorteo: Viaje a Perú</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #d32f2f;
+        }
+        img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .video {
+            margin: 20px 0;
+        }
+        button {
+            background-color: #d32f2f;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #b71c1c;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>¡Participa en nuestro sorteo!</h1>
+        <p>Gana un increíble viaje a Perú. Solo tienes que seguir las instrucciones para participar.</p>
+        
+        <img src="tu-imagen.jpg" alt="Viaje a Perú">
+        
+        <div class="video">
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+        </div>
+        
+        <button onclick="compartir()">Compartir</button>
+    </div>
+    
+    <script>
+        function compartir() {
+            alert("Comparte este enlace con tus amigos para que también participen: https://tusitio.com/sorteo");
+        }
+    </script>
+</body>
+</html>
